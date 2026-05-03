@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <meta name="google-site-verification" content="vzu44CiCncvdA7_dMWoPQKS5I4NOYuJzlMEW1swrtSI" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
