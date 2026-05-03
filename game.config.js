@@ -1,0 +1,31 @@
+const config = {
+  gameName:         "U7777 Game",
+  gameNameUrdu:     "یو سیون سیون سیون سیون گیم",
+  gameShortCode:    "U7777",
+  gameSlug:         "u7777-game",
+  siteUrl:          "https://u7777.net.pk",
+  affiliateUrl:     "https://u7777.net.pk/go",
+  apkDownloadUrl:   "https://u7777.net.pk/u7777.apk",
+  telegramChannel:  "https://t.me/u7777pakistan",
+  welcomeBonus:     "50%",
+  referralBonus:    "PKR 100",
+  minDeposit:       "PKR 100",
+  minWithdrawal:    "PKR 310",
+  paymentMethods:   ["JazzCash", "EasyPaisa", "Bank Transfer"],
+  accentColor:      "#f59e0b",
+  accentColorDark:  "#b45309",
+  supportEmail:     "support@u7777.net.pk",
+  establishedYear:  "2024",
+  totalGames:       "500+",
+  countryCode:      "PK",
+  defaultLang:      "en-PK",
+  currency:         "PKR",
+  tagline:          "Pakistan's Most Popular Real Money Gaming App",
+  heroStats: [
+    { label: "Active Players", value: "50,000+" },
+    { label: "Min Deposit",    value: "PKR 100" },
+    { label: "Welcome Bonus",  value: "50%" },
+  ],
+};
+
+module.exports = config;
