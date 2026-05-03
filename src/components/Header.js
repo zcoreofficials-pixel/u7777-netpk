@@ -38,8 +38,8 @@ export default function Header({ lang = 'en-PK' }) {
             <Link href="/en-PK" style={{ color: lang === 'en-PK' ? '#000' : 'var(--color-text-muted)', background: lang === 'en-PK' ? 'var(--color-accent)' : 'transparent', fontSize: '12px', fontWeight: '600', padding: '3px 8px', borderRadius: '4px' }}>EN</Link>
             <Link href="/ur-PK" style={{ color: lang === 'ur-PK' ? '#000' : 'var(--color-text-muted)', background: lang === 'ur-PK' ? 'var(--color-accent)' : 'transparent', fontSize: '12px', fontWeight: '600', padding: '3px 8px', borderRadius: '4px' }}>اردو</Link>
           </div>
-          <Link href={`${base}/login`} className="btn btn-login" style={{ padding: '8px 16px', fontSize: '14px' }}>Login</Link>
-          <Link href="/go" className="btn btn-primary" style={{ padding: '8px 16px', fontSize: '14px' }}>Join Now</Link>
+          <Link href={`${base}/U7777-Login`} className="btn btn-login" style={{ padding: '8px 16px', fontSize: '14px' }}>Login</Link>
+          <Link href="/en-PK/register" className="btn btn-primary" style={{ padding: '8px 16px', fontSize: '14px' }}>Join Now</Link>
           <button className="nav-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
             <span></span><span></span><span></span>
           </button>
