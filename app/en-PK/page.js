@@ -90,7 +90,7 @@ export default function HomePage() {
             <h1 className="hero-title"><span>{heroHeadline}</span></h1>
             <p className="hero-desc">{heroDesc}</p>
             <div className="hero-btns">
-              <Link href="/go" className="btn btn-primary">{ctaText}</Link>
+              <Link href="/en-PK/register" className="btn btn-primary">{ctaText}</Link>
               <Link href="/en-PK/app" className="btn btn-download">📱 Download APK</Link>
               <Link href="/en-PK/login" className="btn btn-login">Login</Link>
             </div>
@@ -148,7 +148,7 @@ export default function HomePage() {
             <div className="bonus-amount">50%</div>
             <div className="bonus-label">Welcome Bonus on Your First Deposit — {currentMonth}</div>
             <p style={{ color: 'var(--color-text-muted)', marginBottom: '24px', maxWidth: '500px', margin: '0 auto 24px' }}>Deposit PKR 100 and play with PKR 150. Deposit PKR 1000 and play with PKR 1500. Claimed automatically on your first deposit.</p>
-            <Link href="/go" className="btn btn-primary">Claim Bonus Now</Link>
+            <Link href="/en-PK/register" className="btn btn-primary">Claim Bonus Now</Link>
           </div>
         </div>
       </section>
@@ -234,7 +234,7 @@ export default function HomePage() {
           <h2>Ready to Start Earning with U7777?</h2>
           <p style={{ color: 'var(--color-text-muted)', maxWidth: '500px', margin: '0 auto 32px' }}>Join 50,000+ Pakistani players already earning daily. Download free, deposit PKR 100, and claim your 50% welcome bonus right now.</p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/go" className="btn btn-primary">Join Now — Free</Link>
+            <Link href="/en-PK/register" className="btn btn-primary">Join Now — Free</Link>
             <Link href="/en-PK/app" className="btn btn-download">📱 Download APK</Link>
           </div>
         </div>

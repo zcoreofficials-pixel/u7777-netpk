@@ -22,7 +22,7 @@ export default function RegisterPage() {
           <h1>U7777 Game Register — Create Your Account</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '18px', marginTop: '12px' }}>Sign up in 2 minutes and claim your 50% welcome bonus on first deposit.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '24px', flexWrap: 'wrap' }}>
-            <Link href="/go" className="btn btn-primary">Register Now — Free</Link>
+            <Link href="/play" className="btn btn-primary">Register & Play Now</Link>
             <Link href="/en-PK/login" className="btn btn-outline">Already Have Account?</Link>
           </div>
         </div>
