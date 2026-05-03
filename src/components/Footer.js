@@ -14,8 +14,8 @@ export default function Footer({ lang = 'en-PK' }) {
           </div>
           <nav className="footer-nav">
             <ul>
-              <li><Link href={`${base}/app`}>App Download</Link></li>
-              <li><Link href={`${base}/login`}>Login</Link></li>
+              <li><Link href={`${base}/U7777-game-download`}>App Download</Link></li>
+              <li><Link href={`${base}/U7777-Login`}>Login</Link></li>
               <li><Link href={`${base}/register`}>Register</Link></li>
               <li><Link href={`${base}/deposit`}>Deposit</Link></li>
               <li><Link href={`${base}/withdrawal`}>Withdrawal</Link></li>

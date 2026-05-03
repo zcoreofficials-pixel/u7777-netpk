@@ -54,7 +54,7 @@ export default function ContactPage() {
           <div className="related-pages" style={{ marginTop: '48px' }}>
             <h3 style={{ marginBottom: '16px', color: 'var(--color-text-muted)', fontSize: '14px', textTransform: 'uppercase' }}>Related Pages</h3>
             <div className="related-grid">
-              {[['Troubleshooting', '/en-PK/troubleshooting'], ['FAQ', '/en-PK/faq'], ['About', '/en-PK/about'], ['Deposit', '/en-PK/deposit'], ['Withdrawal', '/en-PK/withdrawal'], ['Login', '/en-PK/login']].map(([label, href]) => (
+              {[['Troubleshooting', '/en-PK/troubleshooting'], ['FAQ', '/en-PK/faq'], ['About', '/en-PK/about'], ['Deposit', '/en-PK/deposit'], ['Withdrawal', '/en-PK/withdrawal'], ['Login', '/en-PK/U7777-Login']].map(([label, href]) => (
                 <Link key={href} href={href} className="related-link">{label}</Link>
               ))}
             </div>

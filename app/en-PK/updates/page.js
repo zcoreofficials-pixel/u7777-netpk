@@ -57,12 +57,12 @@ export default function UpdatesPage() {
           <div className="success-box" style={{ marginTop: '24px' }}>✅ Always update to the latest version for the best performance and newest games. Updates are free and your account balance is never affected.</div>
           <div style={{ marginTop: '40px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
             <Link href="/go" className="btn btn-download">Download Latest APK</Link>
-            <Link href="/en-PK/app" className="btn btn-outline">App Download Guide</Link>
+            <Link href="/en-PK/U7777-game-download" className="btn btn-outline">App Download Guide</Link>
           </div>
           <div className="related-pages" style={{ marginTop: '48px' }}>
             <h3 style={{ marginBottom: '16px', color: 'var(--color-text-muted)', fontSize: '14px', textTransform: 'uppercase' }}>Related Pages</h3>
             <div className="related-grid">
-              {[['App Download', '/en-PK/app'], ['APK Guide', '/en-PK/apk'], ['Troubleshooting', '/en-PK/troubleshooting'], ['How to Play', '/en-PK/how-to-play'], ['FAQ', '/en-PK/faq'], ['Casino Games', '/en-PK/casino']].map(([label, href]) => (
+              {[['App Download', '/en-PK/U7777-game-download'], ['APK Guide', '/en-PK/apk'], ['Troubleshooting', '/en-PK/troubleshooting'], ['How to Play', '/en-PK/how-to-play'], ['FAQ', '/en-PK/faq'], ['Casino Games', '/en-PK/casino']].map(([label, href]) => (
                 <Link key={href} href={href} className="related-link">{label}</Link>
               ))}
             </div>

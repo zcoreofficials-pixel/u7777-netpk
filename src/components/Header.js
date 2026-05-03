@@ -7,8 +7,8 @@ export default function Header({ lang = 'en-PK' }) {
   const base = `/${lang}`
 
   const navLinks = [
-    { href: `${base}/app-page`,          label: 'App Download' },
-    { href: `${base}/login-page`,        label: 'Login' },
+    { href: `${base}/U7777-game-download`,          label: 'App Download' },
+    { href: `${base}/U7777-Login`,        label: 'Login' },
     { href: `${base}/register`,     label: 'Register' },
     { href: `${base}/deposit`,      label: 'Deposit' },
     { href: `${base}/bonus`,        label: 'Bonus' },

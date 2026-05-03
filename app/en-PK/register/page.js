@@ -23,7 +23,7 @@ export default function RegisterPage() {
           <p style={{ color: 'var(--color-text-muted)', fontSize: '18px', marginTop: '12px' }}>Sign up in 2 minutes and claim your 50% welcome bonus on first deposit.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '24px', flexWrap: 'wrap' }}>
             <Link href="/play" className="btn btn-primary">Register & Play Now</Link>
-            <Link href="/en-PK/login" className="btn btn-outline">Already Have Account?</Link>
+            <Link href="/en-PK/U7777-Login" className="btn btn-outline">Already Have Account?</Link>
           </div>
         </div>
         <div className="page-content">
@@ -57,12 +57,12 @@ export default function RegisterPage() {
           <div className="info-box"><strong>App Crashes During Registration?</strong> Clear the app cache, restart it, and try again. Make sure you have the latest version.</div>
           <div style={{ marginTop: '40px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
             <Link href="/go" className="btn btn-primary">Register Now</Link>
-            <Link href="/en-PK/app" className="btn btn-download">Download App First</Link>
+            <Link href="/en-PK/U7777-game-download" className="btn btn-download">Download App First</Link>
           </div>
           <div className="related-pages" style={{ marginTop: '48px' }}>
             <h3 style={{ marginBottom: '16px', color: 'var(--color-text-muted)', fontSize: '14px', textTransform: 'uppercase' }}>Related Pages</h3>
             <div className="related-grid">
-              {[['Login', '/en-PK/login'], ['App Download', '/en-PK/app'], ['Deposit', '/en-PK/deposit'], ['Bonus', '/en-PK/bonus'], ['Verification', '/en-PK/verification'], ['FAQ', '/en-PK/faq']].map(([label, href]) => (
+              {[['Login', '/en-PK/U7777-Login'], ['App Download', '/en-PK/U7777-game-download'], ['Deposit', '/en-PK/deposit'], ['Bonus', '/en-PK/bonus'], ['Verification', '/en-PK/verification'], ['FAQ', '/en-PK/faq']].map(([label, href]) => (
                 <Link key={href} href={href} className="related-link">{label}</Link>
               ))}
             </div>

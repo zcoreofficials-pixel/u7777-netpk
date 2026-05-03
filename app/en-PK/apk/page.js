@@ -40,7 +40,7 @@ export default function ApkPage() {
           </ul>
           <div style={{ marginTop: '40px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
             <Link href="/go" className="btn btn-download">Download APK Now</Link>
-            <Link href="/en-PK/app" className="btn btn-outline">Full App Guide</Link>
+            <Link href="/en-PK/U7777-game-download" className="btn btn-outline">Full App Guide</Link>
           </div>
         </div>
       </div>

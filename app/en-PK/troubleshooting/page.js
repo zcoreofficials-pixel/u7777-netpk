@@ -49,7 +49,7 @@ export default function TroubleshootingPage() {
           <div className="related-pages" style={{ marginTop: '48px' }}>
             <h3 style={{ marginBottom: '16px', color: 'var(--color-text-muted)', fontSize: '14px', textTransform: 'uppercase' }}>Related Pages</h3>
             <div className="related-grid">
-              {[['FAQ', '/en-PK/faq'], ['Contact', '/en-PK/contact'], ['Login', '/en-PK/login'], ['Deposit', '/en-PK/deposit'], ['Withdrawal', '/en-PK/withdrawal'], ['App Download', '/en-PK/app']].map(([label, href]) => (
+              {[['FAQ', '/en-PK/faq'], ['Contact', '/en-PK/contact'], ['Login', '/en-PK/U7777-Login'], ['Deposit', '/en-PK/deposit'], ['Withdrawal', '/en-PK/withdrawal'], ['App Download', '/en-PK/U7777-game-download']].map(([label, href]) => (
                 <Link key={href} href={href} className="related-link">{label}</Link>
               ))}
             </div>

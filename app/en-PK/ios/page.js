@@ -44,7 +44,7 @@ export default function IosPage() {
           </ul>
           <p>For the best U7777 experience in Pakistan we recommend using an Android device with the dedicated APK installed.</p>
           <div style={{ marginTop: '40px' }}>
-            <Link href="/en-PK/app" className="btn btn-download">Android App Guide</Link>
+            <Link href="/en-PK/U7777-game-download" className="btn btn-download">Android App Guide</Link>
           </div>
         </div>
       </div>

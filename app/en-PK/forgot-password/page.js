@@ -11,7 +11,7 @@ export default function ForgotPasswordPage() {
   return (
     <>
       <Header lang="en-PK" />
-      <div className="container"><div className="breadcrumb"><Link href="/en-PK">Home</Link> <span>›</span> <Link href="/en-PK/login">Login</Link> <span>›</span> Forgot Password</div></div>
+      <div className="container"><div className="breadcrumb"><Link href="/en-PK">Home</Link> <span>›</span> <Link href="/en-PK/U7777-Login">Login</Link> <span>›</span> Forgot Password</div></div>
       <div className="container" style={{ paddingBottom: '72px' }}>
         <div className="page-hero">
           <div className="update-badge">🟢 Updated: {lastUpdated}</div>

@@ -19,7 +19,7 @@ export default function HowToPlayPage() {
           <p style={{ color: 'var(--color-text-muted)', fontSize: '18px', marginTop: '12px' }}>Everything you need to know to start playing and earning on U7777 in Pakistan.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '24px', flexWrap: 'wrap' }}>
             <Link href="/go" className="btn btn-primary">Start Playing Now</Link>
-            <Link href="/en-PK/app" className="btn btn-download">Download App</Link>
+            <Link href="/en-PK/U7777-game-download" className="btn btn-download">Download App</Link>
           </div>
         </div>
         <div className="page-content">

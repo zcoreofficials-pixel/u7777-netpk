@@ -91,8 +91,8 @@ export default function HomePage() {
             <p className="hero-desc">{heroDesc}</p>
             <div className="hero-btns">
               <Link href="/en-PK/register" className="btn btn-primary">{ctaText}</Link>
-              <Link href="/en-PK/app" className="btn btn-download">📱 Download APK</Link>
-              <Link href="/en-PK/login" className="btn btn-login">Login</Link>
+              <Link href="/en-PK/U7777-game-download" className="btn btn-download">📱 Download APK</Link>
+              <Link href="/en-PK/U7777-Login" className="btn btn-login">Login</Link>
             </div>
             <div className="hero-stats">
               <div><div className="hero-stat-label">Active Players</div><div className="hero-stat-value">50,000+</div></div>
@@ -127,7 +127,7 @@ export default function HomePage() {
           </div>
           <div className="cards-grid">
             {[
-              { step: '1', title: 'Download the U7777 APK', desc: 'Click the Download APK button on this page to get the latest official U7777 app. Since it is not on Google Play Store, you install it directly — we walk you through it step by step.', link: '/en-PK/app', label: 'Full Download Guide' },
+              { step: '1', title: 'Download the U7777 APK', desc: 'Click the Download APK button on this page to get the latest official U7777 app. Since it is not on Google Play Store, you install it directly — we walk you through it step by step.', link: '/en-PK/U7777-game-download', label: 'Full Download Guide' },
               { step: '2', title: 'Create Your Account', desc: 'Registration takes 2 minutes. Enter your phone number, set a password, verify with OTP, and your account is ready. New accounts automatically get the 50% welcome bonus on first deposit.', link: '/en-PK/register', label: 'Registration Guide' },
               { step: '3', title: 'Deposit via JazzCash or EasyPaisa', desc: 'Add as little as PKR 100 to your wallet using JazzCash or EasyPaisa. Your balance updates instantly. Then pick any game and start playing.', link: '/en-PK/deposit', label: 'Deposit Guide' },
             ].map((item) => (
@@ -235,7 +235,7 @@ export default function HomePage() {
           <p style={{ color: 'var(--color-text-muted)', maxWidth: '500px', margin: '0 auto 32px' }}>Join 50,000+ Pakistani players already earning daily. Download free, deposit PKR 100, and claim your 50% welcome bonus right now.</p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/en-PK/register" className="btn btn-primary">Join Now — Free</Link>
-            <Link href="/en-PK/app" className="btn btn-download">📱 Download APK</Link>
+            <Link href="/en-PK/U7777-game-download" className="btn btn-download">📱 Download APK</Link>
           </div>
         </div>
       </section>
@@ -245,7 +245,7 @@ export default function HomePage() {
           <h3 style={{ marginBottom: '16px', color: 'var(--color-text-muted)', fontSize: '14px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>All U7777 Pages</h3>
           <div className="related-grid">
             {[
-              ['App Download', '/en-PK/app'], ['Login', '/en-PK/login'], ['Register', '/en-PK/register'],
+              ['App Download', '/en-PK/U7777-game-download'], ['Login', '/en-PK/U7777-Login'], ['Register', '/en-PK/register'],
               ['Deposit', '/en-PK/deposit'], ['Withdrawal', '/en-PK/withdrawal'], ['Bonus', '/en-PK/bonus'],
               ['Promo Codes', '/en-PK/promo'], ['Referral', '/en-PK/referral'], ['How to Play', '/en-PK/how-to-play'],
               ['Casino Games', '/en-PK/casino'], ['Tips & Tricks', '/en-PK/tricks'], ['Review', '/en-PK/review'],
