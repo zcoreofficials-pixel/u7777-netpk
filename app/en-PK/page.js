@@ -102,7 +102,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="hero-img-wrap">
-            <img src="/images/hero.webp" alt="U7777 Game Pakistan — Real Money Earning App on Android with JazzCash and EasyPaisa" title="U7777 Game — Pakistan Top Earning App" width="500" height="500" />
+            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}><img src="/images/hero.webp" alt="U7777 Game Pakistan — Official Real Money Earning App Download for Android with JazzCash and EasyPaisa Payment" title="U7777 Game — Pakistan Number 1 Earning App 2026" width="500" height="300" style={{ borderRadius: "12px", width: "100%" }} /><div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: "8px" }}><img src="/images/banner1.webp" alt="U7777 Game Pakistan Teen Patti Slots Casino Games Earn Real Money via JazzCash" title="U7777 Casino Games Pakistan" width="160" height="100" style={{ borderRadius: "8px", width: "100%" }} /><img src="/images/banner2.webp" alt="U7777 Game App Download Android APK Pakistan 50% Welcome Bonus EasyPaisa Deposit" title="U7777 App Download Pakistan" width="160" height="100" style={{ borderRadius: "8px", width: "100%" }} /><img src="/images/banner3.webp" alt="U7777 Game JazzCash EasyPaisa Withdrawal Pakistan Real Money Dragon Tiger Fishing" title="U7777 Earn Real Money Pakistan" width="160" height="100" style={{ borderRadius: "8px", width: "100%" }} /></div></div>
           </div>
         </div>
       </section>

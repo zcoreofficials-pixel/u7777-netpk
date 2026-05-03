@@ -17,7 +17,7 @@ export default function AppPage() {
         <div className="breadcrumb"><Link href="/en-PK">Home</Link> <span>›</span> App Download</div>
       </div>
       <div className="container" style={{ paddingBottom: '72px' }}>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner1.webp" alt="U7777 Game APK Download Pakistan — Free Android App JazzCash EasyPaisa Real Money" title="U7777 Game Download Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <div className="update-badge">🟢 Updated: {lastUpdated}</div>
           <h1>U7777 Game App Download — Android APK Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '18px', marginTop: '12px' }}>Free official APK download for all Android phones in Pakistan. Works on Android 5.0 or higher.</p>

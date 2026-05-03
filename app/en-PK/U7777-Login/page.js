@@ -17,7 +17,7 @@ export default function LoginPage() {
         <div className="breadcrumb"><Link href="/en-PK">Home</Link> <span>›</span> Login</div>
       </div>
       <div className="container" style={{ paddingBottom: '72px' }}>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner2.webp" alt="U7777 Game Login Pakistan — Secure Account Access JazzCash EasyPaisa" title="U7777 Login Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <div className="update-badge">🟢 Updated: {lastUpdated}</div>
           <h1>U7777 Game Login — Account Access Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '18px', marginTop: '12px' }}>Access your U7777 account quickly and securely. Works on Android app and mobile browser.</p>

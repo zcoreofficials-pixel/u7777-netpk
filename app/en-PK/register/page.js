@@ -17,7 +17,7 @@ export default function RegisterPage() {
         <div className="breadcrumb"><Link href="/en-PK">Home</Link> <span>›</span> Register</div>
       </div>
       <div className="container" style={{ paddingBottom: '72px' }}>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner3.webp" alt="U7777 Game Register Pakistan — Create Account Free 50% Welcome Bonus JazzCash EasyPaisa" title="U7777 Register Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <div className="update-badge">🟢 Updated: {lastUpdated}</div>
           <h1>U7777 Game Register — Create Your Account</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '18px', marginTop: '12px' }}>Sign up in 2 minutes and claim your 50% welcome bonus on first deposit.</p>
