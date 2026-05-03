@@ -1,0 +1,71 @@
+name: Auto Refresh — Update Stats & Ping Google
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update stats and sitemap
+        run: |
+          # Generate realistic dynamic stats
+          PLAYERS=$((49000 + RANDOM % 3000))
+          WINNERS=$((1200 + RANDOM % 800))
+          WIN_AMT=$((30000 + RANDOM % 40000))
+          NEW_GAMES=$((8 + RANDOM % 10))
+          WITHDRAWN=$((1800000 + RANDOM % 800000))
+          SEGMENT=$(( $(date +%H) / 4 ))
+          NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          DATE=$(date -u +%Y-%m-%d)
+
+          # Format numbers with commas
+          PLAYERS_F=$(printf "%'.f" $PLAYERS)
+          WINNERS_F=$(printf "%'.f" $WINNERS)
+          WIN_AMT_F=$(printf "%'.f" $WIN_AMT)
+          WITHDRAWN_F=$(printf "%'.f" $WITHDRAWN)
+
+          # Update refresh.config.json with new stats
+          cat > refresh.config.json << JSONEOF
+          {
+            "lastRefreshed": "$NOW",
+            "activeBonus": "50%",
+            "activePlayers": "$PLAYERS_F",
+            "todayWinners": "$WINNERS_F",
+            "biggestWin": "PKR $WIN_AMT_F",
+            "newGames": "$NEW_GAMES",
+            "totalWithdrawn": "PKR $(echo $WITHDRAWN | sed ':a;s/\B[0-9]\{3\}\>/,&/;ta')",
+            "segment": $SEGMENT
+          }
+          JSONEOF
+
+          # Update sitemap lastmod dates
+          sed -i "s|<lastmod>.*</lastmod>|<lastmod>$DATE</lastmod>|g" public/sitemap.xml
+
+          # Commit changes
+          git config user.email "refresh-bot@u7777.net.pk"
+          git config user.name "U7777 Refresh Bot"
+          git add refresh.config.json public/sitemap.xml
+          git diff --staged --quiet || git commit -m "Stats update $NOW — $PLAYERS_F active players"
+          git push
+
+      - name: Ping Google Sitemap
+        run: curl -s "https://www.google.com/ping?sitemap=https://u7777.net.pk/sitemap.xml" || true
+
+      - name: Ping Bing Sitemap
+        run: curl -s "https://www.bing.com/ping?sitemap=https://u7777.net.pk/sitemap.xml" || true
+
+      - name: Warm up key pages
+        run: |
+          curl -s "https://u7777.net.pk/en-PK" > /dev/null || true
+          curl -s "https://u7777.net.pk/en-PK/U7777-game-download" > /dev/null || true
+          curl -s "https://u7777.net.pk/en-PK/U7777-Login" > /dev/null || true
+          curl -s "https://u7777.net.pk/en-PK/deposit" > /dev/null || true
+          curl -s "https://u7777.net.pk/en-PK/bonus" > /dev/null || true

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Header from '../../src/components/Header'
 import Footer from '../../src/components/Footer'
+import LiveStats from '../../src/components/LiveStats'
 
 export const metadata = {
   title: 'U7777 Game — Download U7777 APK & Earn Real Money in Pakistan 2026',
