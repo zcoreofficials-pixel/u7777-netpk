@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 export default function PlayPage() {
   useEffect(() => {
-    window.location.href = 'https://d3q39670qsiozy.cloudfront.net/?dl=5umrac'
+    window.location.replace('https://d3q39670qsiozy.cloudfront.net/?dl=5umrac')
   }, [])
 
   return (
