@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Password Reset — Account Recovery Pakistan',
   description: 'Forgot your U7777 Game password? Complete password reset guide for Pakistan. OTP verification, new password setup and account recovery steps.',

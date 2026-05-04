@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Game Tricks — Tips & Strategy Guide Pakistan',
   description: 'U7777 Game tips and tricks for Pakistani players. Winning strategies, bankroll management, best games to play and how to maximize your bonus value.',

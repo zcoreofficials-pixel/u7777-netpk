@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: `U7777 Game Update — Latest Version Pakistan ${new Date().toLocaleDateString('en-PK', { month: 'long', year: 'numeric' })}`,
   description: 'U7777 Game latest update Pakistan. New features, bug fixes, version history and how to update your U7777 app to the latest version.',

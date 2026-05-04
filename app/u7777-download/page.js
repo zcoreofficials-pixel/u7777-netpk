@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 
 export const metadata = {
   title: 'U7777 Game App Download — Android APK Pakistan 2026',

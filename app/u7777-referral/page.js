@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Referral Program — Earn PKR 100 Per Friend Pakistan',
   description: 'U7777 Game referral program Pakistan. Earn PKR 100 for every friend you invite. How to share your link, track referrals and maximize earnings.',

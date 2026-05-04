@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Game Alternatives — Similar Games Pakistan 2026',
   description: 'Best U7777 Game alternatives in Pakistan 2026. Similar earning apps with JazzCash and EasyPaisa support. Comparison and recommendations.',

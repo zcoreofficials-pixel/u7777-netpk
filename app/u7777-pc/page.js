@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Game PC — Play on Computer Pakistan Guide',
   description: 'How to play U7777 Game on PC or laptop in Pakistan. Browser access and Android emulator guide for desktop players.',

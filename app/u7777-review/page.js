@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Game Review — Honest Review Pakistan 2026',
   description: 'Full honest review of U7777 Game in Pakistan 2026. Pros and cons, payment speed, game variety, bonuses, security rating and final verdict.',

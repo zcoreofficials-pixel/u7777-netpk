@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'About U7777 Game — Pakistan Earning App Overview',
   description: 'About U7777 Game Pakistan. Learn what U7777 is, who it is for, how it works, and why it is one of the most popular earning apps in Pakistan.',

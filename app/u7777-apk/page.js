@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 APK — Safe Download & Install Guide Pakistan',
   description: 'U7777 APK download guide for Pakistan. What is APK, why not on Play Store, how to enable unknown sources, safety verification and version history.',

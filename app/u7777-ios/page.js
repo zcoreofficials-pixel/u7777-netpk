@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Game iPhone — How to Play on iOS Pakistan',
   description: 'How to play U7777 Game on iPhone in Pakistan. Browser access guide, add to home screen, iOS limitations and best experience tips.',

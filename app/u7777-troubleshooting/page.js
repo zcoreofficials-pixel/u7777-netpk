@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Game Problems — Fix Common Issues Pakistan',
   description: 'Fix U7777 Game problems in Pakistan. App not opening, login failed, deposit not showing, withdrawal delayed, OTP not received — solutions for all issues.',

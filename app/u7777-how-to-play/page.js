@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'How to Play U7777 Game — Complete Beginner Guide Pakistan',
   description: 'Learn how to play U7777 Game in Pakistan. Complete beginner guide covering slots, Teen Patti, Dragon Tiger, fishing games and sports betting.',

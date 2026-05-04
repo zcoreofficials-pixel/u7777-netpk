@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: `U7777 Promo Code — Latest Offers Pakistan ${new Date().toLocaleDateString('en-PK', { month: 'long', year: 'numeric' })}`,
   description: 'U7777 Game promo codes for Pakistan. Latest active codes, how to apply them, and all current promotional offers updated monthly.',

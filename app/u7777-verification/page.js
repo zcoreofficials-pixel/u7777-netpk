@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Account Verification — KYC Guide Pakistan',
   description: 'U7777 Game account verification guide for Pakistan. KYC process, required documents, verification time and what happens after approval.',

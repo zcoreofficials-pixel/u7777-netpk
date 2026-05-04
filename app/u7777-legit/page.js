@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'Is U7777 Game Legit? Safe & Trusted Pakistan 2026',
   description: 'Is U7777 Game legit and safe in Pakistan? Honest answer covering payment security, game fairness, user reviews and how to protect yourself.',

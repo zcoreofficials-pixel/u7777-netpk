@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'U7777 Casino Games — Full Game List Pakistan',
   description: 'All U7777 casino games in Pakistan. Slots, Teen Patti, Dragon Tiger, fishing games, live dealers, sports betting and 500+ more. Full game guide.',

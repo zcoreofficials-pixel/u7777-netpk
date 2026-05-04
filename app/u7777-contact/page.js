@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Header from '../../../src/components/Header'
-import Footer from '../../../src/components/Footer'
+import Header from '../../src/components/Header'
+import Footer from '../../src/components/Footer'
 export const metadata = {
   title: 'Contact U7777 Game Support — Pakistan Help Center',
   description: 'Contact U7777 Game support in Pakistan. Live chat, email, Telegram and WhatsApp support channels. Get help with deposits, withdrawals and account issues.',
