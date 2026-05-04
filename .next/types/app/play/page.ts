@@ -1,4 +1,4 @@
-// File: /home/runner/workspace/artifacts/nextjs-app/app/play/page.js
+// File: /home/runner/workspace/u7777-netpk/app/play/page.js
 import * as entry from '../../../../app/play/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
