@@ -3,7 +3,7 @@ export default function robots() {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/api/', '/_next/'],
+      disallow: ['/go', '/play'],
     },
     sitemap: 'https://u7777.net.pk/sitemap.xml',
   }
